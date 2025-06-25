@@ -1,27 +1,25 @@
 # PRODIGY_ML_03
-# 🐾 Cat vs Dog Image Classification using SVM
+# 🐱🐶 Cat vs Dog Classification using SVM
 
-This project implements a **Support Vector Machine (SVM)** to classify images of **cats and dogs** using the popular [Kaggle Dogs vs Cats dataset](https://www.kaggle.com/c/dogs-vs-cats/data).
-
----
-
-## 📂 Dataset
-
-- Download from Kaggle: [Dogs vs Cats](https://www.kaggle.com/c/dogs-vs-cats/data)
-- Place all images from the `train/` folder into the same directory as the script.
+This project implements a Support Vector Machine (SVM) to classify images of **cats** and **dogs** using the [Kaggle Dogs vs. Cats dataset](https://www.kaggle.com/c/dogs-vs-cats/data).
 
 ---
 
-## 💡 Features
+## 📌 Overview
 
-- Uses grayscale + resized images (64x64)
-- Extracts HOG (Histogram of Oriented Gradients) features
-- Trains a linear SVM classifier
-- Evaluates using accuracy and classification report
+The model uses:
+- Grayscale image conversion
+- Resizing and flattening
+- (Optional) HOG feature extraction
+- SVM classification
+
+This lightweight approach is suitable for quick experimentation on smaller image sets.
 
 ---
 
-## 🚀 Run
+## 📁 Dataset
 
-```bash
-python cats_and_dogs_svm.py
+- Download the dataset from Kaggle: [Dogs vs. Cats Dataset](https://www.kaggle.com/c/dogs-vs-cats/data)
+- After downloading:
+  - Extract `train.zip`
+  - Place the extracted files in a folder called `train/` in your project directory
